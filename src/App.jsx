@@ -5,8 +5,8 @@ const App = () => {
   return (
     <div>
       <div>
-        {num % 2 === 0 && <div>{num} je paran broj!</div>}
-        {num % 2 !== 0 && <div>{num} je neparan broj!</div>} 
+        {num % 2 === 0 && <p>{num} je paran broj!</p>}
+        {num % 2 !== 0 && <p>{num} je neparan broj!</p>} 
       </div>
     </div>
   );
