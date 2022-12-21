@@ -1,7 +1,8 @@
-let num = 22;
+
 
 
 const App = () => {
+  let num = 22;
   return (
     <div>
       <div>
